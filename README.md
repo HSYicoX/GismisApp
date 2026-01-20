@@ -371,15 +371,14 @@ SUPABASE_ANON_KEY=auto-injected
 
 ## 📧 联系方式
 
-- 项目主页: [https://github.com/yourusername/gismis](https://github.com/yourusername/gismis)
-- 问题反馈: [Issues](https://github.com/yourusername/gismis/issues)
-- 邮箱: your.email@example.com
+- 项目主页: [[https://github.com/HSYicoX/GismisApp](https://github.com/HSYicoX/GismisApp)
+- 问题反馈: [Issues](https://github.com/HSYicoX/GismisApp/issues)
 
 ---
 
 <div align="center">
 
-**[⬆ 回到顶部](#gismis---动漫追番助手)**
+**[⬆ 回到顶部](#Gismis---动漫追番助手)**
 
 Made with ❤️ by Gismis Team
 
