@@ -50,7 +50,7 @@ An artistic anime tracking application with magazine-like aesthetic, powered by 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-org/gismis.git
+git clone https://github.com/HSYicoX/GismisApp.git
 cd gismis
 ```
 
@@ -75,12 +75,12 @@ The app uses compile-time environment variables for Supabase configuration. Set 
 ```bash
 # Development
 flutter run \
-  --dart-define=SUPABASE_URL=http://localhost:54321 \
+  --dart-define=SUPABASE_URL=你的URL \
   --dart-define=SUPABASE_ANON_KEY=your-local-anon-key
 
 # Production
 flutter run --release \
-  --dart-define=SUPABASE_URL=https://api.haokir.com \
+  --dart-define=SUPABASE_URL=你的URL \
   --dart-define=SUPABASE_ANON_KEY=your-production-anon-key
 ```
 
@@ -88,9 +88,9 @@ flutter run --release \
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `SUPABASE_URL` | Base URL for Supabase services | `https://api.haokir.com` |
+| `SUPABASE_URL` | Base URL for Supabase services | `你的URL` |
 | `SUPABASE_ANON_KEY` | Anonymous key for public operations | (required) |
-| `SUPABASE_STAGING_URL` | Staging environment URL | `https://staging-api.haokir.com` |
+| `SUPABASE_STAGING_URL` | Staging environment URL | `你的URL` |
 | `SUPABASE_STAGING_ANON_KEY` | Staging anonymous key | (optional) |
 
 ### Configuration Classes
@@ -100,7 +100,7 @@ The app provides multiple configuration options:
 ```dart
 // Standard Kong gateway deployment (recommended)
 final config = SupabaseConfig.standard(
-  baseUrl: 'https://api.haokir.com',
+  baseUrl: '你的URL',
   anonKey: 'your-anon-key',
 );
 
@@ -241,7 +241,7 @@ Set these in your Supabase project settings:
 
 ```bash
 # Required
-SUPABASE_URL=https://api.haokir.com
+SUPABASE_URL=你的URL
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 # For AI functions
