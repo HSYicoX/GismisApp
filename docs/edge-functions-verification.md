@@ -11,7 +11,7 @@
 ```bash
 # 必需的环境变量
 JWT_SECRET=your_jwt_secret_key
-SUPABASE_URL=https://api.haokir.com
+SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 SUPABASE_ANON_KEY=your_anon_key
 
